@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="269px" height="269px" viewBox="0 0 269 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Search Minus - FontAwesome</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="portfolio" transform="translate(-585.000000, -409.000000)" fill="#F2F2F2">
+            <g id="select" transform="translate(545.000000, 369.000000)">
+                <g id="Group-2" transform="translate(40.000000, 40.000000)">
+                    <path d="M186,114.5 C186,74.5279018 153.472098,42 113.5,42 C73.5279018,42 41,74.5279018 41,114.5 C41,154.472098 73.5279018,187 113.5,187 C153.472098,187 186,154.472098 186,114.5 Z M269,248.307692 C269,259.785457 259.785457,269 248.307692,269 C242.811298,269 237.476562,266.736779 233.758413,262.856971 L178.309495,207.569712 C159.395433,220.664062 136.763221,227.615385 113.807692,227.615385 C50.922476,227.615385 0,176.692909 0,113.807692 C0,50.922476 50.922476,0 113.807692,0 C176.692909,0 227.615385,50.922476 227.615385,113.807692 C227.615385,136.763221 220.664062,159.395433 207.569712,178.309495 L263.01863,233.758413 C266.736779,237.476562 269,242.811298 269,248.307692 Z" id="Search-Minus---FontAwesome"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

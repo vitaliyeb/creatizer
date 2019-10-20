@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-mail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contact" transform="translate(-160.000000, -202.000000)">
+            <g transform="translate(160.000000, 202.000000)" id="icon-mail">
+                <g>
+                    <polygon id="Path" fill="#FBBC05" points="0 30 0 0 15 15"></polygon>
+                    <polygon id="Path" fill="#EA4335" transform="translate(22.500000, 15.000000) scale(-1, 1) translate(-22.500000, -15.000000) " points="15 30 15 0 30 15"></polygon>
+                    <polygon id="Path" fill="#4285F4" transform="translate(15.000000, 22.500000) scale(1, -1) rotate(90.000000) translate(-15.000000, -22.500000) " points="7.5 37.5 7.5 7.5 22.5 22.5"></polygon>
+                    <polygon id="Path" fill="#34A853" transform="translate(15.000000, 7.500000) scale(-1, 1) rotate(90.000000) translate(-15.000000, -7.500000) " points="7.5 22.5 7.5 -7.5 22.5 7.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

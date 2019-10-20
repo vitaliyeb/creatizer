@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-seo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index" transform="translate(-160.000000, -1669.000000)">
+            <g id="seo" transform="translate(160.000000, 1669.000000)">
+                <g id="icon-seo">
+                    <path d="M30,30 L60,30 L60,30 C60,46.5685425 46.5685425,60 30,60 L30,30 Z" id="Rectangle" fill="#4285F4"></path>
+                    <path d="M30,0 L60,0 L60,0 C60,16.5685425 46.5685425,30 30,30 L30,0 Z" id="Rectangle" fill="#EA4335" transform="translate(45.000000, 15.000000) scale(-1, -1) translate(-45.000000, -15.000000) "></path>
+                    <path d="M0,0 L30,0 L30,0 C30,16.5685425 16.5685425,30 1.8369702e-15,30 L0,0 Z" id="Rectangle" fill="#34A853" transform="translate(15.000000, 15.000000) scale(1, -1) translate(-15.000000, -15.000000) "></path>
+                    <path d="M0,30 L30,30 L30,30 C30,46.5685425 16.5685425,60 1.8369702e-15,60 L0,30 Z" id="Rectangle" fill="#FBBC05" transform="translate(15.000000, 45.000000) scale(-1, 1) translate(-15.000000, -45.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

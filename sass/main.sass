@@ -1,0 +1,318 @@
+.content
+  width: 100%
+  max-width: 1440px
+  margin: 0 auto
+
+.aboutUS
+  width: 100%
+  min-height: 445px
+  padding-top: 121px
+  display: flex
+  flex-wrap: wrap
+
+  &-image
+    width: 445px
+    height: 445px
+    padding-left: 160px
+    padding-right: 133px
+    display: inline-block
+
+  &-content
+    width: 542px
+    min-height: 445px
+    display: inline-block
+
+    &-interesting
+      font-size: 16px
+      text-align: left
+      font-family: "GothamProLight"
+      color: rgba(136,136,136,1)
+
+    &-heading
+      color: rgba(66,133,244,1)
+      font-size: 60px
+      font-family: "GothamProBold"
+      padding-top: 18px
+
+    &-descriptions
+      padding-top: 30px
+      color: rgba(102,102,102,1)
+      font-size: 16px
+      font-family: "GothamProLight"
+      line-height: 24px
+
+      & span
+        display: block
+        width: 1px
+        height: 5px
+
+    &-button
+      width: 188px
+      height: 51px
+      margin-top: 81px
+      display: block
+      text-decoration: none
+      font-family: "GothamProMedium"
+      background-color: rgba(66,133,244,1)
+      color: #fff
+      font-size: 16px
+      text-align: center
+      line-height: 51px
+
+.specialization
+  width: 100%
+  min-height: 588px
+  display: flex
+  flex-direction: row
+  flex-flow: wrap
+  justify-content: center
+  padding-top: 120px
+
+  &-block
+    margin: 0 18px
+    width: 100%
+    min-height: 255px
+    max-width: 541px
+
+    &-heading
+      padding-left: 96px
+      width: 187px
+      height: 62px
+      color: rgba(64,64,64,1)
+      font-size: 60px
+      font-family: "GothamProBold"
+      background-repeat: no-repeat
+
+      &__web
+        background-image: url("./../img/icon-web.svg")
+
+      &__app
+        background-image: url("./../img/icon-app.svg")
+
+      &__seo
+        background-image: url("./../img/icon-seo.svg")
+
+      &__soft
+        background-image: url("./../img/icon-soft.svg")
+
+    &-descriptions
+      margin-top: 40px
+      max-width: 445px
+      width: 100%
+      float: right
+      color: rgba(102,102,102,1)
+      font-size: 16px
+      line-height: 24px
+      font-family: "GothamProLight"
+
+      span
+        display: block
+        width: 1px
+        height: 5px
+
+.portfolio
+  min-height: 539px
+  width: 100%
+  padding-top: 120px
+  display: flex
+  flex-direction: row
+  flex-flow: nowrap
+
+  &-link
+    display: block
+    position: relative
+
+    &-button
+      background-color: rgba(66,133,244,1)
+      width: 100%
+      font-size: 16px
+      display: block
+      color: #FFFFFF
+      text-align: center
+      line-height: 51px
+      font-family: "GothamProMedium"
+      text-decoration: none
+      height: 51px
+
+    &__center::before
+      content: " "
+      position: absolute
+      background-color: rgba(251,188,5,1)
+      height: 8px
+      width: 100%
+      top: 0
+      left: 0
+
+    &__left
+      margin-top: 51px
+
+      &:before
+        content: " "
+        position: absolute
+        background-color: rgba(234,67,53,1)
+        height: 8px
+        width: 100%
+        top: 0
+        left: 0
+
+    &__right
+      margin-top: 51px
+
+      &:before
+        content: " "
+        position: absolute
+        background-color: rgba(52,168,83,1)
+        height: 8px
+        width: 100%
+        top: 0
+        left: 0
+
+  &-image
+    max-height: 480px
+    max-width: 480px
+    width: 100%
+    display: block
+
+.translator
+  min-height: 570px
+  width: 100%
+  padding-top: 120px
+
+  & .slick-slide
+    height: auto
+
+  & .slick-dots
+    position: static
+    padding-top: 40px
+    padding-bottom: 0
+
+  & .slick-dots
+
+    & li
+      width: 16px
+      height: 16px
+      background-color: rgba(254,238,192,1)
+      border-radius: 10px
+
+    & .slick-active
+      background-color: rgba(251,188,5,1)
+
+  &-item
+    width: 100%
+    display: flex
+    flex-direction: column
+
+    &-avatar
+      background-image: url("./../img/Group.svg")
+      width: 193px
+      object-fit: none
+      height: 193px
+      margin: 0 auto
+
+    &-name
+      margin-top: 28px
+      font-family: "GothamProBold"
+      font-size: 28px
+      color: rgba(64,64,64,1)
+      text-align: center
+
+    &-company
+      text-align: center
+      font-family: "GothamProLight"
+      color: rgba(136,136,136,1)
+      font-size: 16px
+      margin-top: 12px
+
+    &-text
+      max-width: 1024px
+      min-height: 162px
+      color: rgba(102,102,102,1)
+      font-size: 16px
+      line-height: 24px
+      font-family: "GothamProLightItalic"
+      padding-left: 96px
+      background-image: url("./../img/icon-quote.svg")
+      background-repeat: no-repeat
+      margin: 0 auto
+      position: relative
+      margin-top: 40px
+      overflow: hidden
+
+      span
+        border-bottom: 1px solid rgba(251,188,5,1)
+        width: 100%
+        height: 1px
+        display: block
+        position: absolute
+        bottom: 0
+
+.company
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  justify-content: space-evenly
+  padding-top: 90px
+
+  & img
+    margin: 0 10px
+
+.consultation
+  min-height: 140px
+  display: flex
+  flex-direction: row
+  margin-top: 120px
+  background-color: rgba(234,67,53,1)
+  align-items: center
+  justify-content: center
+  flex-flow: wrap
+
+  &-headink
+    color: rgba(255,255,255,1)
+    font-size: 33px
+    line-height: 53px
+    max-width: 734px
+    width: 100%
+    text-align: center
+    margin: 18px auto 18px auto
+    font-family: "GothamProBold"
+
+  &-button
+    margin: 18 auto
+    width: 350px
+    height: 60px
+    border: 1px solid #fff
+    color: #fff
+    text-decoration: none
+    font-family: "GothamProMedium"
+    font-size: 28px
+    line-height: 60px
+    text-align: center
+
+.address
+  display: flex
+  flex-direction: row
+  flex-flow: nowrap
+  align-items: center
+
+  &-description
+    width: 328px
+    height: 270px
+    margin: 0 auto
+    padding-left: 10px
+
+    & img
+      max-width: 280px
+      width: 100%
+
+    &-text
+      font-family: "GothamProLight"
+      font-size: 18px
+      margin-top: 40px
+      color: rgba(136,136,136,1)
+      line-height: 26px
+      text-align: left
+
+      & span
+        display: block
+        width: 1px
+        height: 5px

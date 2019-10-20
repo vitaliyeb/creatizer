@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-soft</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index" transform="translate(-738.000000, -1669.000000)">
+            <g id="soft" transform="translate(738.000000, 1669.000000)">
+                <g id="icon-soft">
+                    <polygon id="Path" fill="#EA4335" points="33 0 60 0 60 30 45 30 45 15 33 15"></polygon>
+                    <polygon id="Path" fill="#4285F4" points="45 45 45 30 60 30 60 60 33 60 33 45"></polygon>
+                    <polygon id="Path" fill="#34A853" transform="translate(13.500000, 15.000000) scale(-1, 1) translate(-13.500000, -15.000000) " points="0 0 27 0 27 30 12 30 12 15 0 15"></polygon>
+                    <polygon id="Path" fill="#FBBC05" transform="translate(13.500000, 45.000000) scale(-1, 1) translate(-13.500000, -45.000000) " points="12 45 12 30 27 30 27 60 0 60 0 45"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
