@@ -1,0 +1,152 @@
+<html>
+  <head>
+  <title>Creatizer</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+  <link rel="stylesheet" href="./css/brif/brif-main.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/brif/brif-media.css">
+
+  </head>
+  <body>
+
+            <div class="background-headcall">
+                    <div class="content">
+                            <div class="headcall">
+                              <p class="headcall-text">Наши идеи оживают, наши технологии работают!</p>
+                              <div>
+                                      <p class="headcall-text"><a href="tel:+7 (351) 777-17-57">+7 (351) 777-17-57</a></p>
+                                      <p class="headcall-text"><a href="tel:+7 (951) 793-19-91">+7 (951) 793-19-91</a></p>
+                                      <p class="headcall-text"><a href="mailto:">Напишите нам</a></p>
+                              </div>
+                            </div>
+                    </div>
+           </div>
+           <div class="background-header">
+                    <div class="content">
+                            <header class="header">
+                                    <a href="./index.html"><img class="header-logo" src="./img/logo-color.png" alt="logo-head"></a>
+                                    <div class="hamburger-menu">
+                                            <input id="menu__toggle" type="checkbox" />
+                                            <label class="menu__btn" for="menu__toggle">
+                                                    <span></span>
+                                            </label>
+                                            <ul class="menu__box">
+                                                    <a href="./services.html"><li class="menu__item header-nav-link header-nav-link_shadow">УСЛУГИ</li></a>
+                                                    <a href="./portfolio.html"><li class="menu__item header-nav-link">ПОРТФОЛИО</li></a>
+                                                    <a href="./brif.html"><li class="menu__item header-nav-link">ЗАКАЗАТЬ</li></a>
+                                                    <a href="./about.html"><li class="menu__item header-nav-link">О НАС</li></a>
+                                                    <a href="./contact.html"><li class="menu__item header-nav-link">КОНТАКТЫ</li></a>
+                                            </ul>
+                                      </div>
+                                      <a href="tel:+7 (951) 793-19-91"><img class="header-call" src="./img/btn-call.svg" alt="call-head"></a>
+                            </header>
+                    </div>
+           </div>
+           <div class="content">
+                  <h1 class="heading">ЗАКАЗАТЬ</h1>
+                  <form class="form"  method="post" novalidate>
+                                  <p class="toOrder">Заказать очень просто! Вы можете позвонить нам или оставить заявку онлайн.</p>
+                                  <select value="Выберите проект">
+                                    <option selected>Выберите проект</option>
+                                    <option value="WEB" >WEB</option>
+                                    <option value="APP" >APP</option>
+                                    <option value="SOFT" >SOFT</option>
+                                  </select>
+                                  <p class="fillIn mobile-del">Прикрепите бриф и другие файлы</p>
+                                  <div class="form-file mobile-del" id="upload-container">
+                                          <img id="upload-image" src="img/brif/icon-upload.png">
+                                          <div>
+                                                   <input id="file-input" type="file" name="file" multiple>
+                                                   <span>Перетяните файл сюда или </span>
+                                                   <label for="file-input">выберите файл</label>
+                                                   <span>для загрузки</span>
+                                          </div>
+                                  </div>
+                                  <p class="fillIn mobile-del">Заполните контактные данные</p>
+                                  <p id="validMessage" class="message" ></p>
+                                  <div class="form-flex">
+                                          <input id="userName" class="border__red" type="text" placeholder="Имя*" required>
+                                          <input id="mail" class="border__red" type="email" placeholder="E-mail*" required>
+                                          <input type="text" placeholder="Компания*" required>
+                                          <input type="tel" placeholder="Телефон">
+                                  </div>
+                                  <input class="input-full mobile-del" type="text" placeholder="Тема">
+                                  <textarea class="input-full" placeholder="Комментарий к заказу"></textarea>
+                                  <div class="sub">
+                                          <p>Нажимая на кнопку «Отправить», вы даете согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности.</p>
+                                          <input type="submit" class=" blue_active" value="ОТПРАВИТЬ">
+                                  </div>
+                  </form>
+          </div>
+          <div class="colorLine">
+                  <div class="colorLine-shark colorLine__red"></div>
+                  <div class="colorLine-shark colorLine__green"></div>
+                  <div class="colorLine-shark colorLine__blue"></div>
+                  <div class="colorLine-shark colorLine__yellow"></div>
+          </div>
+          <div class="content content__footer">
+                  <footer class="footer">
+                          <img src="./img/logo.svg" alt="logocre">
+                                  <ul class="footer-nav">
+                                    <li class="footer-link"><a href="#">УСЛУГИ</a></li>
+                                    <li class="footer-link"><a href="#">ПОРТФОЛИО</a></li>
+                                    <li class="footer-link"><a href="#">ЗАКАЗАТЬ</a></li>
+                                    <li class="footer-link"><a href="#">О НАС</a></li>
+                                    <li class="footer-link"><a href="#">КОНТАКТЫ</a></li>
+                                  </ul>
+                  </footer>
+          </div>
+
+  <script type="text/javascript">
+          var form  = document.getElementsByTagName('form')[0],
+               email = document.getElementById('mail'),
+               userName = document.getElementById('userName'),
+               formMessage = document.getElementById('validMessage');
+
+            form.addEventListener("submit", function (event) {
+              if (email.validity.valid && userName.validity.valid) {
+                    formMessage.innerHTML = "";
+                    formMessage.className = "message message__normal";
+              }else {
+                formMessage.innerHTML = "Ошибка! Поля отмеченные красным цветом обязательны к заполнению!"
+                formMessage.className = "message message__error";
+                event.preventDefault();
+              }
+          }, false);
+
+
+
+
+          // var dropZone = $('#upload-container');
+          // dropZone.on('drag dragstart dragend dragover dragenter dragleave drop', function(){
+          //      return false;
+          // });
+          // dropZone.on('dragover dragenter', function() {
+          //      dropZone.addClass('dragover');
+          // });
+          //
+          // dropZone.on('dragleave', function(e) {
+          //      let dx = e.pageX - dropZone.offset().left;
+          //      let dy = e.pageY - dropZone.offset().top;
+          //      if ((dx < 0) || (dx > dropZone.width()) || (dy < 0) || (dy > dropZone.height())) {
+          //           dropZone.removeClass('dragover');
+          //      };
+          // });
+          //
+          // dropZone.on('drop', function(e) {
+          //      dropZone.removeClass('dragover');
+          //      let files = e.originalEvent.dataTransfer.files;
+          //      sendFiles(files);
+          // });
+          //
+          // $('#file-input').change(function() {
+          //      let files = this.files;
+          //      sendFiles(files);
+          // });
+
+  </script>
+</html>
