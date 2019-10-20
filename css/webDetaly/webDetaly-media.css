@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  .consultation{
+    margin-top: 36px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-header-button{
+    max-width: 100%;
+  }
+  .content-head{
+    padding: 0;
+  }
+  .content-header{
+    flex-direction: column;
+    padding: 36px 0 0;
+  }
+  .content-header-description{
+    margin-bottom: 36px;
+    width: 250px
+  }
+  .content-header-description p{
+    text-align: center;
+  }
+}

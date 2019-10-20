@@ -1,0 +1,148 @@
+@media (max-width: 1100px) {
+  .heading{
+    margin: 60px auto;
+    display: block;
+    width: 160px
+  }
+  .about-description p{
+    padding: 36px 16px 0 16px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 1140px) {
+  .team-cards{
+    flex-wrap: wrap;
+  }
+  .team-cards img{
+    margin: 0 auto;
+  }
+  .team-cards-description{
+    margin: 0 auto;
+  }
+  .aspect{
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .aspect-item__blue p, .aspect-item__red p{
+    margin-left: 80px;
+  }
+  .aspect-item p{
+    font-size: 15px;
+    width: 200px;
+  }
+  .aspect img{
+    width: 100px;
+    height: 100px;
+  }
+  .bg-img{
+    top: 235px;
+    left: 276px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .about{
+    flex-wrap: wrap;
+    margin-top: 35px;
+  }
+  .about img {
+    margin-top: 35px;
+  }
+
+}
+@media (max-width: 750px) {
+   .advantage{
+     padding: 30px 0;
+   }
+  .aspect{
+    max-width: 287px;
+    margin: 0 auto;
+  }
+  .aspect-item__blue p, .aspect-item__red p{
+    margin-left: 80px;
+  }
+  .aspect-item p{
+    font-size: 15px;
+    width: 119px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+  }
+  .aspect-item{
+    width: 139px;
+    height: 192px;
+  }
+  .aspect-divider{
+    height: auto;
+    padding: 4px 0;
+  }
+  .aspect img{
+    width: 50px;
+    height: 50px;
+  }
+  .aspect-item span{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .aspect-item p span{
+    height: 0px;
+  }
+  .bg-img{
+    top: 150px;
+    left: 93px;
+    width: 100px;
+    height: 100px;
+  }
+  .aspect-item__green{
+    margin-right: 4px;
+  }
+  .aspect-item__green span{
+    margin: 9px 0 18px 10px;
+  }
+  .aspect-item__red{
+    margin-left: 4px;
+  }
+  .aspect-item__red span{
+    margin: 9px 10px 18px 0;
+  }
+  .aspect-item__blue{
+    margin-left: 4px;
+  }
+  .aspect-item__blue span{
+    margin: 0px 18px 10px 0;
+  }
+  .aspect-item__yellow{
+    margin-right: 4px;
+  }
+  .aspect-item__yellow span{
+    margin: 0px 0 10px 18px;
+  }
+  .aspect-item__yellow p, .aspect-item__blue p{
+    margin-top: 48px;
+  }
+
+
+}
+@media (max-width: 700px) {
+  .advantage{
+    font-size: 30px;
+    padding: 35px 0;
+  }
+}
+@media (max-width: 500px) {
+  .team-description-name{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 36px;
+
+  }
+  .team-description-position{
+    text-align: center;
+    margin-top: 18px;
+  }
+  .team-description-text{
+    margin-top: 18px;
+  }
+}

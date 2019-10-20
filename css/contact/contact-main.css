@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.content {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;}
+
+.heading {
+  font-family: "GothamProBold";
+  font-size: 30px;
+  color: #404040;
+  padding-left: 48px;
+  background-image: url("./../../img/contact/icon-mail.svg");
+  background-repeat: no-repeat;
+  margin: 60px 0; }
+
+.form {
+  max-width: 1000px;
+  width: 100%;
+  min-height: 599px;
+  background: #FFFFFF;
+  padding: 0 60px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 60px; }
+  .form .sub {
+    display: flex;
+    flex-direction: row;
+    padding: 60px 0; }
+    .form .sub p {
+      font-family: "GothamProLight";
+      font-size: 14px;
+      color: #888888;
+      text-align: left;
+      line-height: 18px; }
+    .form .sub input {
+      max-width: 185px;
+      height: 51px;
+      background-color: #4285f4;
+      cursor: pointer;
+      font-family: "GothamProMedium";
+      font-size: 16px;
+      color: #fff;
+      line-height: 51px;
+      text-align: center; }
+  .form .border__red {
+    border-bottom: 1px solid #ea4335; }
+  .form .input-full {
+    max-width: 1005;
+    width: 100%;
+    line-height: 60px;
+    display: block; }
+  .form-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    resize: none; }
+  .form .message {
+    padding: 14px;
+    font-family: "GothamProLight";
+    margin: 66px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    line-height: 24px;
+    box-sizing: border-box; }
+    .form .message__normal {
+      background-color: #fff;
+      color: #666666; }
+    .form .message__error {
+      color: #f2f2f2;
+      background-color: #ea4335; }
+  .form input, .form textarea {
+    height: 58px;
+    background: #FFFFFF;
+    border: none;
+    max-width: 422px;
+    font-size: 24px;
+    font-family: "GothamProLight";
+    border-bottom: 1px solid #bbbbbb;
+    width: 100%; }
+  .form textarea {
+    height: 121px;
+    outline: none;
+    resize: none; }

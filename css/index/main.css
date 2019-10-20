@@ -1,0 +1,244 @@
+
+.content {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.aboutUS {
+  width: 100%;
+  min-height: 445px;
+  padding-top: 121px;
+  display: flex;
+  flex-wrap: wrap; }
+  .aboutUS-image {
+    width: 445px;
+    height: 445px;
+    padding-left: 160px;
+    padding-right: 133px;
+    display: inline-block; }
+  .aboutUS-content {
+    width: 542px;
+    min-height: 445px;
+    display: inline-block; }
+    .aboutUS-content-interesting {
+      font-size: 16px;
+      text-align: left;
+      font-family: "GothamProLight";
+      color: #888888; }
+    .aboutUS-content-heading {
+      color: #4285f4;
+      font-size: 60px;
+      font-family: "GothamProBold";
+      padding-top: 18px; }
+    .aboutUS-content-descriptions {
+      padding-top: 30px;
+      color: #666666;
+      font-size: 16px;
+      font-family: "GothamProLight";
+      line-height: 24px; }
+      .aboutUS-content-descriptions span {
+        display: block;
+        width: 1px;
+        height: 5px; }
+    .aboutUS-content-button {
+      width: 188px;
+      height: 51px;
+      margin-top: 81px;
+      display: block;
+      text-decoration: none;
+      font-family: "GothamProMedium";
+      background-color: #4285f4;
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      line-height: 51px; }
+
+.specialization {
+  width: 100%;
+  min-height: 588px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  padding-top: 120px; }
+  .specialization-block {
+    margin: 0 18px;
+    width: 100%;
+    min-height: 255px;
+    max-width: 541px; }
+    .specialization-block-heading {
+      padding-left: 96px;
+      width: 187px;
+      height: 62px;
+      color: #404040;
+      font-size: 60px;
+      font-family: "GothamProBold";
+      background-repeat: no-repeat; }
+      .specialization-block-heading__web {
+        background-image: url("./../../img/icon-web.svg"); }
+      .specialization-block-heading__app {
+        background-image: url("./../../img/icon-app.svg"); }
+      .specialization-block-heading__seo {
+        background-image: url("./../../img/icon-seo.svg"); }
+      .specialization-block-heading__soft {
+        background-image: url("./../../img/icon-soft.svg"); }
+    .specialization-block-descriptions {
+      margin-top: 40px;
+      max-width: 445px;
+      width: 100%;
+      float: right;
+      color: #666666;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: "GothamProLight"; }
+      .specialization-block-descriptions span {
+        display: block;
+        width: 1px;
+        height: 5px; }
+
+.portfolio {
+  min-height: 523px;
+  width: 100%;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap; }
+  .portfolio-link {
+    display: block;
+    transition: .5s;
+    position: relative; }
+    .portfolio-link-button {
+      background-color: #4285f4;
+      width: 100%;
+      font-size: 16px;
+      display: block;
+      color: #FFFFFF;
+      text-align: center;
+      line-height: 51px;
+      position: absolute;
+      opacity: 0;
+      bottom: 0;
+      font-family: "GothamProMedium";
+      text-decoration: none;
+      height: 51px; }
+    .portfolio-link__center::before {
+      content: " ";
+      position: absolute;
+      background-color: #fbbc05;
+      height: 8px;
+      width: 100%;
+      top: 0;
+      left: 0; }
+    .portfolio-link__left {
+      margin-top: 51px; }
+      .portfolio-link__left:before {
+        content: " ";
+        position: absolute;
+        background-color: #ea4335;
+        height: 8px;
+        width: 100%;
+        top: 0;
+        left: 0; }
+    .portfolio-link__right {
+      margin-top: 51px; }
+      .portfolio-link__right:before {
+        content: " ";
+        position: absolute;
+        background-color: #34a853;
+        height: 8px;
+        width: 100%;
+        top: 0;
+        left: 0; }
+  .portfolio-image {
+    max-height: 480px;
+    max-width: 480px;
+    width: 100%;
+    display: block; }
+
+.translator {
+  min-height: 570px;
+  width: 100%;
+  padding-top: 120px; }
+  .translator .slick-slide {
+    height: auto; }
+  .translator .slick-dots {
+    position: static;
+    padding-top: 40px;
+    padding-bottom: 0; }
+  .translator .slick-dots li {
+    width: 16px;
+    height: 16px;
+    background-color: #feeec0;
+    border-radius: 10px; }
+  .translator .slick-dots .slick-active {
+    background-color: #fbbc05; }
+  .translator-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    .translator-item-avatar {
+      background-image: url("./../../img/Group.svg");
+      width: 193px;
+      object-fit: none;
+      height: 193px;
+      margin: 0 auto; }
+    .translator-item-name {
+      margin-top: 28px;
+      font-family: "GothamProBold";
+      font-size: 28px;
+      color: #404040;
+      text-align: center; }
+    .translator-item-company {
+      text-align: center;
+      font-family: "GothamProLight";
+      color: #888888;
+      font-size: 16px;
+      margin-top: 12px; }
+    .translator-item-text {
+      max-width: 1024px;
+      min-height: 162px;
+      color: #666666;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: "GothamProLightItalic";
+      padding-left: 96px;
+      background-image: url("./../../img/icon-quote.svg");
+      background-repeat: no-repeat;
+      margin: 0 auto;
+      position: relative;
+      margin-top: 40px;
+      overflow: hidden; }
+      .translator-item-text span {
+        border-bottom: 1px solid #fbbc05;
+        width: 100%;
+        height: 1px;
+        display: block;
+        position: absolute;
+        bottom: 0; }
+
+.company {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 1200px;
+  margin:  0 auto;
+  justify-content: space-evenly;
+  padding-top: 90px; }
+  .company img {
+    width: 300px;
+  object-fit: none;}
+
+.portfolio-link{
+  margin-top: 43px;
+}
+.portfolio-link-button {
+  transition: .8s;
+  /* display: none; */
+}
+.portfolio-link:hover{
+  margin-top: 0px;
+}
+.portfolio-link:hover .portfolio-link-button{
+  display: block;
+  opacity: 1;
+}

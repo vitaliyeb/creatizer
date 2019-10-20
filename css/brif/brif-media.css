@@ -1,0 +1,61 @@
+.form select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+}
+
+
+@media (max-width: 1000px) {
+  .form input, .form textarea{
+    max-width: 45%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .heading{
+    display: table;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 600px) {
+  .form select{
+    height: 44px;
+    margin-bottom: 18px;
+    font-size: 20px;
+  }
+  .form .toOrder{
+    padding: 36px 0;
+  }
+  .mobile-del{
+    display: none
+  }
+  .form input, .form textarea{
+    max-width: 100%;
+    font-size: 18px;
+  }
+  .form .message{
+    margin: 36px auto;
+    font-size: 16px;
+  }
+  .form{
+    padding: 0 18px;
+  }
+  .form .sub{
+    flex-wrap: wrap;
+    padding-top: 0;
+  }
+  .form .sub input{
+    width: 100%;
+    max-width: 100%
+  }
+  .form .sub p{
+    margin: 36px 0;
+  }
+  .form textarea{
+    height: 149px;
+  }
+  .form input{
+    height: 44px;
+  }
+}

@@ -1,0 +1,267 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.slick-prev::before{
+  content: 'ᐸ';
+}
+
+.slick-next::before {
+    content: 'ᐳ';
+}
+.slick-prev, .slick-next{
+  width: 40px;
+  height: 40px;
+  background: rgba(64,64,64,0.50);
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+  background: rgba(64,64,64,0.50)
+}
+.slideContainer{
+  max-width: 1440px;
+  height: 538px;
+  margin: 0 auto;
+  background-image: url(../../img/image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 752px;
+}
+.slideContainer .slick-prev{
+  left: 40px;
+  z-index: 10;
+}
+.slideContainer .slick-next{
+  right: 40px;
+  z-index: 10;
+}
+.slide-item{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+.slide-circles{
+  height: 16px;
+  width: 89px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.slide-circle{
+  margin: 0;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  display: inline-block;
+}
+.slide-circle_red{
+  background-color: rgba(234,67,53,1);
+}
+.slide-circle_yellow{
+  background-color: rgba(251,188,5,1);
+}
+.slide-circle_green{
+  background-color: rgba(52,168,83,1);
+}
+.slide-circle_yellow{
+  margin: 0 16px;
+}
+.slide-description{
+  width: 440px;
+  height: 285px;
+  margin-left: 160px;
+  margin-top: 76px;
+}
+.description-name{
+  position: relative;
+  width: 100%;
+  height: 65px;
+  margin-bottom: 17px;
+  border: 1px solid rgba(204,204,204,1);
+  background-color:#fff;
+  z-index: 2;
+}
+.description-name h1{
+  font-family: "GothamProBold";
+  color: #404040;
+  font-size: 59px;
+  height: 100%;
+}
+.description-name-resize{
+  width: 8px;
+  height: 8px;
+  border: 1px solid rgba(204,204,204,1);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+  position: absolute;
+  background-color: #fff;
+}
+.description-name-resize_topLeft{
+  top: -5px;
+  left: -5px;
+}
+.description-name-resize_topRight{
+  top: -5px;
+  right: -5px;
+}
+.description-name-resize_topCenter{
+  left: 218px;
+  top: -5px;
+}
+.description-name-resize_leftCenter{
+  left: -5px;
+  top: 30.5px;
+}
+.description-name-resize_rightCenter{
+  right: -5px;
+  top: 30.5px;
+}
+.description-name-resize_bottomLeft{
+  bottom: -5px;
+  left: -5px;
+}
+.description-name-resize_bottomCenter{
+  left: 218px;
+  bottom: -5px;
+}
+.description-name-resize_bottomRight{
+  right: -5px;
+  bottom: -5px;
+}
+.description-list{
+  list-style-type: none;
+  margin-bottom: 24px;
+}
+.description-list-item a{
+  text-decoration: none;
+  color: rgba(136,136,136,1);
+  font-family: "GothamProLight";
+  font-size: 18px;
+  line-height: 32px;
+}
+.slide-description-button{
+  display: block;
+  height: 51px;
+  width: 172px;
+  background-color: rgba(234,67,53,1);
+  color: rgba(255,255,255,1);
+  font-size: 16px;
+  font-family: "GothamProMedium";
+  text-align: center;
+  text-decoration: none;
+  line-height: 51px;
+}
+.slide-colors{
+  width: 360px;
+  height: 37px;
+  margin: 44px auto;
+  display: flex;
+  flex-direction: row;
+  padding-left: 200px;
+}
+.slide-colors > :nth-child(2){
+  margin: 0 18px;
+}
+.slideColors-block{
+  width: 108px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.slideColors-block-color{
+  display: inline-block;
+  width: 36px;
+  height: 10px;
+  margin-bottom: 15px;
+}
+.slideColors-block-color_yellow-25{
+  background-color: rgba(254,238,192,1);
+}
+.slideColors-block-color_yellow-5{
+  background-color: rgba(253,221,130,1);
+}
+.slideColors-block-color_yellow-1{
+  background-color: rgba(251,188,5,1);
+}
+.slideColors-block-color_blue-25{
+  background-color: rgba(208,224,252,1);
+}
+.slideColors-block-color_blue-5{
+  background-color: rgba(160,194,249,1);
+}
+.slideColors-block-color_blue-1{
+  background-color: rgba(66,133,244,1);
+}
+.slideColors-block-color_red-25{
+  background-color: rgba(250,208,204,1);
+}
+.slideColors-block-color_red-5{
+  background-color: rgba(244,161,154,1);
+}
+.slideColors-block-color_red-1{
+  background-color: rgba(234,67,53,1);
+}
+.slideColors-block-colorName{
+  font-family: GothamProLight;
+  font-size: 13px;
+  color: rgba(136,136,136,1);
+  margin: 0 auto;
+}
+.slideItem-gradientFoot{
+  width: 68%;
+  height: 8px;
+  background-image: linear-gradient(90deg,
+  #F2F2F2 57%, rgba(242,242,242,0.00) 100%);
+}
+/* ЛИНИИ НА СЛАЙДЕ */
+.slide-line_top29{
+  height: 2px;
+  width: 768px;
+  background-image: linear-gradient(90deg,
+     rgb(234, 67, 53) 0%, rgba(234,67,53,0) 97%);
+  position: absolute;
+  top: 29px;
+  left: 0;
+  opacity: 0.6;
+}
+.slide-line_top121{
+  height: 2px;
+  width: 825px;
+  background-image: linear-gradient(90deg,
+     rgb(234, 67, 53) 50%, rgba(234,67,53,0) 97%);
+  position: absolute;
+  top: 122px;
+  left: 0;
+  opacity: 0.6;
+  z-index: 1;
+}
+.slide-line_top408{
+  height: 2px;
+  width: 1115px;
+  background-image: linear-gradient(90deg,
+     rgb(234, 67, 53) 0%, rgba(234,67,53,0) 97%);
+  position: absolute;
+  top: 408px;
+  left: 0;
+  opacity: 0.6;
+}
+.slide-lineLeft{
+  position: absolute;
+  height: 546px;
+  width: 2px;
+  background-image: linear-gradient(180deg,
+    rgb(234, 67, 53) 1%, rgba(234,67,53,0) 99%);
+  top: 0px;
+  z-index: 1;
+  opacity: 0.6;
+}
+.slide-lineLeft_29{
+  left: 29px;
+}
+.slide-lineLeft_160{
+  left: 160px;
+}
+
+.slide-lineLeft_600{
+  left: 600px;
+}

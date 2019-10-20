@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.img__right{
+  box-shadow: 60px 60px 0px 0px rgba(242,242,242,1)
+}
+.img__left{
+  box-shadow: -60px 60px 0px 0px rgba(242,242,242,1)
+}
+
+.content {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+ }
+
+.heading {
+  font-family: "GothamProBold";
+  font-size: 30px;
+  color: #404040;
+  padding-left: 48px;
+  background-image: url("./../../img/about/icon-about.svg");
+  background-repeat: no-repeat;
+  margin: 60px 0; }
+
+.about-description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .about-description img {
+    max-width: 542px;
+    width: 100%;
+    max-height: 186px;
+    margin: 0 auto; }
+  .about-description p {
+    font-family: "GothamProLight";
+    font-size: 15px;
+    color: #666666;
+    padding-left: 36px;
+    box-sizing: border-box;
+    line-height: 24px;
+    max-width: 542px;
+    width: 100%;
+    margin: 0 auto; }
+    .about-description p span {
+      display: block;
+      width: 1px;
+      height: 5px; }
+
+.advantage {
+  font-family: "GothamProBold";
+  font-size: 42px;
+  color: #404040;
+  text-align: center;
+  padding: 60px 0; }
+
+.bg-img {
+  width: 300px;
+  height: 300px;
+  background-color: #FFF;
+  border-radius: 300px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  top: 192px;
+  left: 413px; }
+
+.aspect {
+  max-height: 636px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column; }
+  .aspect img {
+    width: 200px;
+    height: 200px;
+    background-color: #fff; }
+  .aspect-divider {
+    width: 100%;
+    height: 300px;
+    padding: 18px 0;
+    display: flex;
+    flex-direction: row; }
+  .aspect-item {
+    max-width: 542px;
+    width: 100%;
+    height: 100%; }
+    .aspect-item span {
+      font-family: "GothamProBold";
+      font-size: 40px;
+      color: #FFFFFF;
+      display: block;
+      line-height: 53px; }
+    .aspect-item p {
+      font-family: "GothamProLight";
+      max-width: 325px;
+      width: 100%;
+      height: 106px;
+      font-size: 23px;
+      color: #FFFFFF;
+      line-height: 22px; }
+      .aspect-item p span {
+        display: block;
+        width: 1px;
+        height: 15px; }
+    .aspect-item__green {
+      background-color: #34a853;
+      margin-right: 18px; }
+      .aspect-item__green > span {
+        margin: 16px 0 26px 40px; }
+      .aspect-item__green p {
+        margin-left: 40px; }
+    .aspect-item__red {
+      background-color: #ea4335;
+      margin-left: 18px; }
+      .aspect-item__red > span {
+        text-align: right;
+        margin: 16px 53px 26px 40px; }
+      .aspect-item__red p {
+        margin-left: 150px; }
+    .aspect-item__blue {
+      background-color: #4285f4;
+      margin-left: 18px; }
+      .aspect-item__blue > span {
+        text-align: right;
+        margin: 16px 53px 26px 40px; }
+      .aspect-item__blue p {
+        margin-top: 97px;
+        margin-left: 150px; }
+    .aspect-item__yellow {
+      margin-right: 18px;
+      background-color: #fbbc05; }
+      .aspect-item__yellow > span {
+        margin: 16px 0 26px 40px; }
+      .aspect-item__yellow p {
+        margin-top: 97px;
+        margin-left: 40px; }
+
+.about {
+  min-height: 542px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-top: 60px; }
+  .about img {
+    max-width: 542px;
+    width: 100%;
+    margin: 0 auto; }
+  .about p {
+    font-family: "GothamProLight";
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+    padding: 0 10px;
+    max-width: 542px;
+    width: 100%;
+    margin: 0 auto; }
+    .about p span {
+      display: block;
+      width: 1px;
+      height: 5px; }
+
+.team {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; }
+  .team-heading {
+    padding-bottom: 30px; }
+  .team-cards {
+    min-height: 767px;
+    width: 100%;
+    display: flex;
+    padding: 30px 0;
+    flex-direction: row; }
+    .team-cards__revers {
+      flex-direction: row-reverse; }
+    .team-cards img {
+      max-width: 578px;
+      max-height: 707px;
+      width: 100%; }
+    .team-cards-description {
+      padding: 0 36px;
+      max-width: 500px;
+      width: 100%; }
+  .team-description-name {
+    margin-top: 62px;
+    font-family: "GothamProBold";
+    font-size: 42px;
+    color: #404040; }
+  .team-description-position {
+    margin-top: 18px;
+    font-family: "GothamProLight";
+    font-size: 16px;
+    color: #888888; }
+  .team-description-text {
+    margin-top: 36px;
+    font-family: "GothamProLight";
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px; }
+    .team-description-text span {
+      display: block;
+      width: 1px;
+      height: 5px; }

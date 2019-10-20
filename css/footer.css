@@ -1,0 +1,171 @@
+.content__footer{
+  background-color: rgba(64,64,64,1);
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+.content__footer footer{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.background-consultation{
+    background-color: #ea4335;
+    width: 100%;
+}
+.company .slick-list{
+  height: 50px;
+}
+.consultation {
+  min-height: 140px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap; }
+  .consultation-headink {
+    color: white;
+    font-size: 33px;
+    line-height: 53px;
+    max-width: 734px;
+    width: 100%;
+    text-align: center;
+    margin: 18px auto 18px auto;
+    font-family: "GothamProBold"; }
+  .consultation-button {
+    margin: 18 auto;
+    width: 350px;
+    height: 60px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-family: "GothamProMedium";
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center; }
+.background-footer{
+    background-color: #404040;
+}
+.footer {
+  height: 144px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden; }
+  .footer img {
+    width: 290px;
+    height: 61px; }
+  .footer-nav {
+    max-width: 574px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none; }
+    .footer-nav a {
+      height: 15px;
+      text-decoration: none;
+      color: #7d7d7d;
+      font-family: "GothamProMedium";
+      font-size: 16px; }
+
+      .colorLine {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; }
+        .colorLine-shark {
+          height: 8px;
+          width: 25%; }
+        .colorLine__red {
+          background-color: #34a853; }
+        .colorLine__green {
+          background-color: #ea4335; }
+        .colorLine__blue {
+          background-color: #4285f4; }
+        .colorLine__yellow {
+          background-color: #fbbc05; }
+
+
+          .address {
+            display: flex;
+            flex-direction: row;
+            flex-flow: nowrap;
+            align-items: center; }
+            .address-description {
+              width: 328px;
+              height: 270px;
+              margin: 0 auto;
+              padding-left: 10px; }
+              .address-description img {
+                max-width: 280px;
+                width: 100%; }
+              .address-description-text {
+                font-family: "GothamProLight";
+                font-size: 18px;
+                margin-top: 40px;
+                color: #888888;
+                line-height: 26px;
+                text-align: left; }
+                .address-description-text span {
+                  display: block;
+                  width: 1px;
+                  height: 5px; }
+
+                  .address-description-text a{
+                    text-decoration: none;
+                    font-family: "GothamProLight";
+                    font-size: 18px;
+                    margin-top: 40px;
+                    color: #888888;
+                    line-height: 26px;
+                    text-align: left; }
+
+
+          @media (max-width: 1100px) {
+            .address-description-text{
+              font-size: 15px;
+            }
+          }
+
+          @media (max-width: 900px) {
+              .footer{
+                height: 121px;
+              }
+              .footer-nav{
+                display: none;
+              }
+          }
+          @media (max-width: 700px) {
+              .address{
+                flex-wrap: wrap;
+              }
+              .address-description{
+                height: auto;
+              }
+              .address-description img {
+                display: none;
+              }
+              .address-description-text{
+                margin: 36px auto 42px;
+                text-align: center
+              }
+              .footer{
+                height: 121px;
+              }
+              .footer-nav{
+                display: none;
+              }
+          }
+          @media (max-width: 520px) {
+            .consultation-headink{
+              font-size: 30px;
+            }
+            .consultation-button{
+              width: 290px;
+            }
+
+          }
